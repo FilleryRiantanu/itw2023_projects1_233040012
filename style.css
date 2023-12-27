@@ -46,7 +46,7 @@ a {
   text-decoration: none;
 }
 
-/* End Preparation */
+
 
 .main-container {
   width: 1200px;
@@ -59,7 +59,7 @@ a {
   }
 }
 
-/* Buttons */
+
 .btn {
   padding: 1rem 1.5rem;
   background: white;
@@ -72,7 +72,7 @@ a {
   box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
 }
 
-/* Titles */
+
 .section-title {
   margin: 1rem 0 4rem;
   font-size: 2rem;
@@ -100,7 +100,7 @@ a {
   top: 50%;
 }
 
-/* Layouts */
+
 .grid-3 {
   display: grid;
   /* grid-template-columns: 1fr 1fr 1fr; use this first, use code below when its time for explaining responsive design part */
@@ -108,7 +108,7 @@ a {
   gap: 3rem;
 }
 
-/* --- Logo and Navigation Menu --- */
+
 .nav {
   display: flex;
   justify-content: space-between;
@@ -121,7 +121,7 @@ nav ul {
   gap: 3rem;
 }
 
-/* Logo */
+
 .logo {
   display: flex;
   align-items: center;
@@ -134,7 +134,7 @@ nav ul {
   font-size: 20px;
 }
 
-/* Navigation Menu */
+
 nav ul li {
   display: flex;
   align-items: center;
@@ -144,7 +144,7 @@ nav ul li a {
   color: var(--primaryTextColor);
 }
 
-/* Burger - Save for later on video */
+
 .burger div {
   width: 25px;
   height: 2px;
@@ -162,12 +162,12 @@ nav ul li a {
   right: 35px;
 }
 
-/* Hero Section */
+
 #hero {
   height: 720px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  /* We're not going to use automatic template columns, because we need to know when the columns is go below. So we can exchange the order of the element */
+
   align-items: center;
   margin-top: -10rem;
   margin-right: -2rem;
@@ -194,7 +194,7 @@ nav ul li a {
 }
 
 
-/* Skills and Education */
+
 #skills {
   padding: var(--sectionPadding);
   background: var(--secondaryBackgroundColor);
@@ -233,7 +233,7 @@ nav ul li a {
 
 
 
-/* Portfolios */
+
 #portfolios {
     padding: var(--sectionPadding);
   }
@@ -300,7 +300,7 @@ nav ul li a {
     color: var(--secondaryTextColor);
   }
   
-/* The dot on the line */
+
 .education .line div:before {
   content: "";
   width: 15px;
@@ -311,7 +311,7 @@ nav ul li a {
   left: -6px;
 }
 
-/* Right side of Skills */
+
 .skills-list {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -323,7 +323,7 @@ nav ul li a {
   padding: 0 1rem;
 }
 
-/* Contact Section */
+
 #contact {
   padding: var(--sectionPadding);
 }
@@ -376,7 +376,7 @@ nav ul li a {
   background-color: var(--primaryIconColorHover);
 }
 
-/* Contact Section - Right Side */
+
 .contact-item {
   display: flex;
   gap: 1.5rem;
@@ -402,7 +402,7 @@ nav ul li a {
   margin-bottom: 0.6rem;
 }
 
-/* Footer Section */
+
 footer {
   padding: 4rem 0;
   background: var(--secondaryBackgroundColor);
